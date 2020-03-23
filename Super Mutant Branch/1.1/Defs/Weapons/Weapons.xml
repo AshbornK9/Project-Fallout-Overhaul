@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="FCPBaseMeleeWeapon_Sharp" ParentName="BaseMeleeWeapon" Abstract="True">
+
+  </ThingDef>
+
+  <ThingDef Name="FCPBaseMeleeWeapon_Blunt_Quality" Abstract="True" ParentName="FCPBaseMeleeWeapon_Sharp">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+
+ <ThingDef ParentName="FCPBaseMeleeWeapon_Blunt_Quality">
+    <defName>FCP_Melee_RebarClub</defName>
+    <label>rebar club</label>
+    <description>This crude weapon is a piece of concrete with three pieces of rebar sticking out of it. This weapon is quite unwieldy.</description>
+    
+	<graphicData>
+      <texPath>Things/Weapons/RebarClub</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>50</costStuffCount>
+   
+   <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>4.01</Mass>
+    </statBases>
+	
+	    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <costList>
+      <ChunkSlagSteel>25</ChunkSlagSteel>
+	  <Granite>1</Granite>
+
+    </costList>
+	
+    <weaponTags>
+      <li>RebarClub</li>
+    </weaponTags>   
+	
+	<equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+	
+    <tools>
+      <li>
+        <label>end</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>	
+		<armorPenetration>0.18</armorPenetration>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.3</cooldownTime>
+		<armorPenetration>0.39</armorPenetration>
+      </li>
+    </tools>
+	
+  </ThingDef>
+
+  <ThingDef ParentName="FCPBaseMeleeWeapon_Blunt_Quality">
+    <defName>FCP_Melee_NailBoard</defName>
+    <label>nail board</label>
+    <description>This crude weapon is a 2x4 that has several nails driven through it, with a whittled shaft to ensure a better grip.</description>
+    
+	<graphicData>
+      <texPath>Things/Weapons/NailBoard</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>50</costStuffCount>
+   
+   <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.8</Mass>
+    </statBases>
+	
+    <equippedAngleOffset>-65</equippedAngleOffset>
+	
+    <costList>
+      <WoodLog>25</WoodLog>
+	  <Steel>5</Steel>
+
+    </costList>
+	
+    <weaponTags>
+      <li>NailBoard</li>
+    </weaponTags>   
+	
+	<equippedStatOffsets>
+    </equippedStatOffsets>
+	
+    <tools>
+      <li>
+        <label>end</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.96</cooldownTime>	
+		<armorPenetration>0.9</armorPenetration>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.5</power>
+        <cooldownTime>1.96</cooldownTime>
+		<armorPenetration>0.39</armorPenetration>    
+		<extraMeleeDamages>
+          <li>
+            <def>Stab</def>
+            <amount>4</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+	
+  </ThingDef>
+
+  
+  </Defs>

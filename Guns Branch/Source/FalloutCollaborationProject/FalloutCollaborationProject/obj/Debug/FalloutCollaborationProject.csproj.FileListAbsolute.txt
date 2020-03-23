@@ -1,0 +1,12 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Source\FalloutCollaborationProject\v1.1\Assemblies\FalloutCollaborationProject.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Source\FalloutCollaborationProject\FalloutCollaborationProject\obj\Debug\FalloutCollaborationProject.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Source\FalloutCollaborationProject\FalloutCollaborationProject\obj\Debug\FalloutCollaborationProject.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\Source\FalloutCollaborationProject\v1.1\Assemblies\FalloutCollaborationProject.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\v1.1\Assemblies\FalloutCollaborationProject.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Source\FalloutCollaborationProject\FalloutCollaborationProject\obj\Debug\FalloutCollaborationProject.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\Mods\Fallout Guns\1.1\Assemblies\FalloutCollaborationProject.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\Source\FalloutCollaborationProject\FalloutCollaborationProject\obj\Debug\FalloutCollaborationProject.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\Assemblies\FalloutCollaborationProject.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\Source\FalloutCollaborationProject\FalloutCollaborationProject\obj\Debug\FalloutCollaborationProject.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\1.1\Assemblies\FalloutCollaborationProjectGas.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Fallout Guns\Source\FalloutCollaborationProject\FalloutCollaborationProject\obj\Debug\FalloutCollaborationProjectGas.dll

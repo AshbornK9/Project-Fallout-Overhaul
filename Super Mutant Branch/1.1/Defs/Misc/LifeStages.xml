@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<LifeStageDef>
+		<defName>SuperMutant</defName>
+		<label>super mutant</label>   
+		<reproductive>false</reproductive> 
+		<bodySizeFactor>1.78</bodySizeFactor>  
+		<healthScaleFactor>1.75</healthScaleFactor>
+		<hungerRateFactor>3.23</hungerRateFactor>
+		<marketValueFactor>1</marketValueFactor>
+		<meleeDamageFactor>2</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>1</MoveSpeed>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>1</ArmorRating_Heat>
+			<PsychicSensitivity>1</PsychicSensitivity>
+			<GlobalLearningFactor>1</GlobalLearningFactor>
+		</statFactors>
+		
+	</LifeStageDef>
+
+	  <LifeStageDef>
+		<defName>SuperMutantBrute</defName>
+		<label>super mutant brute</label>
+		<reproductive>false</reproductive>
+		<bodySizeFactor>2.25</bodySizeFactor>
+		<healthScaleFactor>2.5</healthScaleFactor>  
+		<hungerRateFactor>3.45</hungerRateFactor>
+		<marketValueFactor>1</marketValueFactor>
+		<meleeDamageFactor>2.1</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>1.05</MoveSpeed>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.25</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<PsychicSensitivity>1.25</PsychicSensitivity>
+			<GlobalLearningFactor>0.9</GlobalLearningFactor>
+		</statFactors>
+	  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>SuperMutantMaster</defName>
+    <label>super mutant master</label>
+    <reproductive>false</reproductive>
+    <bodySizeFactor>2.75</bodySizeFactor>
+    <healthScaleFactor>3</healthScaleFactor>  
+	<hungerRateFactor>3.5</hungerRateFactor>  
+	<marketValueFactor>1</marketValueFactor>
+    <meleeDamageFactor>2.25</meleeDamageFactor>
+    <statFactors>
+		<MoveSpeed>1.1</MoveSpeed>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+		<PsychicSensitivity>1.5</PsychicSensitivity>
+		<GlobalLearningFactor>0.8</GlobalLearningFactor>	
+		<!--ShootingAccuracyPawn>0</ShootingAccuracyPawn-->
+    </statFactors>
+  </LifeStageDef>
+
+</Defs>

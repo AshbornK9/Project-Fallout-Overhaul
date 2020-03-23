@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>SuperMutantHediff</defName>
+    <label>Super Mutant</label>      
+	<labelNoun>[PAWN_nameDef] is a super mutant.</labelNoun>
+	<description>The first super mutants were designed to be super soldiers that could destroy the enemies on the field of battle quickly and without mercy.</description>
+    <stages>
+				<li>
+			<painFactor>0.4</painFactor>    
+		        </li>	
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Fallout Factions: Vault Dwellers</name>
+  <author>RamRod</author>
+<supportedVersions>
+	<li>1.1</li>
+</supportedVersions>
+<packageId>FalloutFactions.Dwellers</packageId>
+<description>This is a fallout inspired mod, Playable Vault Dwellers. It requires Humanoid AlienRaces 2.0 mod.</description>
+</ModMetaData>

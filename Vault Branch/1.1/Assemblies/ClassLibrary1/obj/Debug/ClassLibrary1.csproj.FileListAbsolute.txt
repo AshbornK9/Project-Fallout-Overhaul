@@ -1,0 +1,4 @@
+D:\Games\steamapps\common\RimWorld\Mods\Fallout Ghouls Race\Assemblies\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+D:\Games\steamapps\common\RimWorld\Mods\Fallout Ghouls Race\Assemblies\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\Games\steamapps\common\RimWorld\Mods\Fallout Ghouls Race\Assemblies\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\Games\steamapps\common\RimWorld\Mods\Fallout Ghouls Race\Assemblies\ClassLibrary1.dll

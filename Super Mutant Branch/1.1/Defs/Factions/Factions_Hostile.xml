@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <FactionDef>
+    <defName>FCPSuperMutantFaction</defName>
+    <label>The Master's Unity</label>
+    <description>The Unity is a mutant-led organization dedicated to the transhumanist transformation of mankind.</description>
+    <pawnSingular>super mutant</pawnSingular>
+    <pawnsPlural>super mutants</pawnsPlural>
+    <listOrderPriority>40</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>overlord</leaderTitle>   
+	<humanlikeFaction>false</humanlikeFaction>
+	<autoFlee>false</autoFlee>
+    <factionIconPath>Things/UI/Super_Mutant</factionIconPath>
+    <colorSpectrum>
+      <li>(0.31, 0.35, 0.2)</li>
+      <li>(0.42, 0.47, 0.27)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+	<fixedName>The Master's Unity</fixedName>
+    <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+    <techLevel>Industrial</techLevel> 
+	<earliestRaidDays>50</earliestRaidDays>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>SuperMutantCatagory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>1</geneticVariance>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>-100~200</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(400,200)</li>
+        <li>(900,300)</li>
+        <li>(100000,10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>  
+		<disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <FCPSuperMutant_Basic_HuntingRifle>10</FCPSuperMutant_Basic_HuntingRifle>
+          <FCPSuperMutant_Basic_NailBoard>3</FCPSuperMutant_Basic_NailBoard>
+          <FCPSuperMutant_Basic_Grenade>10</FCPSuperMutant_Basic_Grenade>
+          <FCPSuperMutant_Brute_Exterminator>2</FCPSuperMutant_Brute_Exterminator>
+          <FCPSuperMutant_Brute_Gunner>10</FCPSuperMutant_Brute_Gunner>
+          <FCPSuperMutant_Brute_Incinerator>6</FCPSuperMutant_Brute_Incinerator>
+          <FCPSuperMutant_Master_Artilleryman>1</FCPSuperMutant_Master_Artilleryman>
+          <FCPSuperMutant_Master_Swordsman>7</FCPSuperMutant_Master_Swordsman>
+          <FCPSuperMutant_Master_HeavyIncinerator>3</FCPSuperMutant_Master_HeavyIncinerator>
+          <FCPSuperMutant_Master_MachineGunner>3</FCPSuperMutant_Master_MachineGunner>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee-only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <FCPSuperMutant_Basic_NailBoard>10</FCPSuperMutant_Basic_NailBoard>
+          <FCPSuperMutant_Brute_Tenderizer>10</FCPSuperMutant_Brute_Tenderizer>
+          <FCPSuperMutant_Basic_Grenade>5</FCPSuperMutant_Basic_Grenade>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>    
+		<disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <FCPSuperMutant_Basic_HuntingRifle>10</FCPSuperMutant_Basic_HuntingRifle>
+          <FCPSuperMutant_Basic_Grenade>0.25</FCPSuperMutant_Basic_Grenade>
+          <FCPSuperMutant_Brute_Incinerator>2</FCPSuperMutant_Brute_Incinerator>
+          <FCPSuperMutant_Brute_Gunner>10</FCPSuperMutant_Brute_Gunner>
+          <FCPSuperMutant_Master_MachineGunner>7</FCPSuperMutant_Master_MachineGunner>
+          <FCPSuperMutant_Master_Artilleryman>5</FCPSuperMutant_Master_Artilleryman>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, explosives with ranged mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <FCPSuperMutant_Basic_Grenade>0.5</FCPSuperMutant_Basic_Grenade>
+          <FCPSuperMutant_Brute_Incinerator>10</FCPSuperMutant_Brute_Incinerator>
+          <FCPSuperMutant_Brute_Gunner>1</FCPSuperMutant_Brute_Gunner>
+          <FCPSuperMutant_Brute_Exterminator>10</FCPSuperMutant_Brute_Exterminator>
+          <FCPSuperMutant_Master_Artilleryman>1</FCPSuperMutant_Master_Artilleryman>
+          <FCPSuperMutant_Master_HeavyIncinerator>1</FCPSuperMutant_Master_HeavyIncinerator>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, hunting rifles only -->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality> 
+		<disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <FCPSuperMutant_Basic_HuntingRifle>10</FCPSuperMutant_Basic_HuntingRifle>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, single use grenades only (very rare) -->
+        <kindDef>Combat</kindDef>
+        <commonality>2.5</commonality>
+        <maxTotalPoints>1000</maxTotalPoints>
+		<disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <FCPSuperMutant_Basic_Grenade>10</FCPSuperMutant_Basic_Grenade>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <FCPSuperMutant_Master_Swordsman>3</FCPSuperMutant_Master_Swordsman>      
+		  <FCPSuperMutant_Master_Rebarbarian>1</FCPSuperMutant_Master_Rebarbarian>
+          <FCPSuperMutant_Basic_Grenade>10</FCPSuperMutant_Basic_Grenade>
+          <FCPSuperMutant_Master_Artilleryman>2</FCPSuperMutant_Master_Artilleryman>
+          <FCPSuperMutant_Basic_HuntingRifle>10</FCPSuperMutant_Basic_HuntingRifle>
+          <FCPSuperMutant_Master_MachineGunner>10</FCPSuperMutant_Master_MachineGunner>
+          <FCPSuperMutant_Brute_Gunner>10</FCPSuperMutant_Brute_Gunner>
+          <FCPSuperMutant_Master_HeavyIncinerator>10</FCPSuperMutant_Master_HeavyIncinerator>   
+		  <Warg>10</Warg>
+
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+</Defs>

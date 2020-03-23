@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Fallout Races: Playable Super Mutant</name>
+  <author>RamRod</author>
+<supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+</supportedVersions>
+<packageId>FalloutRaces.SuperMutants</packageId>
+<description>This is a fallout inspired mod, Playable Super Mutant. It requires Humanoid AlienRaces 2.0 mod.</description>
+</ModMetaData>

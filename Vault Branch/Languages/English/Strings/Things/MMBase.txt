@@ -1,0 +1,4 @@
+﻿Fort
+Castle
+Outpost
+Camp
